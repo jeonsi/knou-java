@@ -17,5 +17,9 @@ public class StringTest {
         System.out.println('c');
         System.out.println(true);
         System.out.println(2.0);
+
+        int i = 10, j = 20;
+        System.out.println(i + " " + j);
+        System.out.println(i + j);
     }
 }
