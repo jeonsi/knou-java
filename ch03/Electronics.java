@@ -1,5 +1,4 @@
 /** Class 정의 방법 */
-package ch03;
 
 public class Electronics {
     private int nVoltage = 0;
