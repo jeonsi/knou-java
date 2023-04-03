@@ -5,12 +5,12 @@ public class AnonymousTest {
         sub.method2();
         sub.method3();
         System.out.println(sub.a);
-        System.out.println(sub.b);
+        System.out.println(sub.a);
     }
 }
 
 class CSub extends CSuper {
-    public int b = 20;
+    public int a = 20;
     public void method1() {System.out.println("sub1");}
     public void method3() {System.out.println("sub3");}
 }
