@@ -3,7 +3,7 @@ import java.awt.*;
 public class ListTest {
     public static void main(String[] args) {
         Frame f = new Frame("List");
-        List l = new List();
+        List l = new List(10, true);
 
         l.add("Red");
         l.add("Green");
